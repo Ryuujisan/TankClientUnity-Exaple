@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212589138289659536}
   - component: {fileID: 114717374952147632}
   m_Layer: 0
-  m_Name: tanks
+  m_Name: tanksPrefabs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
