@@ -1,0 +1,44 @@
+D:\Unity Projects\Bomberman\data\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.exe.config
+D:\Unity Projects\Bomberman\data\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.exe
+D:\Unity Projects\Bomberman\data\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.pdb
+D:\Unity Projects\Bomberman\data\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.dll
+D:\Unity Projects\Bomberman\data\ProtocolSerializer\ProtocolSerializer\bin\Debug\Protocol.dll
+D:\Unity Projects\Bomberman\data\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.pdb
+D:\Unity Projects\Bomberman\data\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.xml
+D:\Unity Projects\Bomberman\data\ProtocolSerializer\ProtocolSerializer\bin\Debug\Protocol.pdb
+D:\Unity Projects\Bomberman\data\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.csprojResolveAssemblyReference.cache
+D:\Unity Projects\Bomberman\data\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.exe
+D:\Unity Projects\Bomberman\data\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.pdb
+D:\13FacesGames\Scintilla Framework\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.exe.config
+D:\13FacesGames\Scintilla Framework\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.exe
+D:\13FacesGames\Scintilla Framework\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.pdb
+D:\13FacesGames\Scintilla Framework\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.dll
+D:\13FacesGames\Scintilla Framework\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\Protocol.dll
+D:\13FacesGames\Scintilla Framework\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.pdb
+D:\13FacesGames\Scintilla Framework\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.xml
+D:\13FacesGames\Scintilla Framework\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\Protocol.pdb
+D:\13FacesGames\Scintilla Framework\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.csprojResolveAssemblyReference.cache
+D:\13FacesGames\Scintilla Framework\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.exe
+D:\13FacesGames\Scintilla Framework\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.pdb
+D:\13FacesGames\Scintilla_Framework\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.exe.config
+D:\13FacesGames\Scintilla_Framework\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.exe
+D:\13FacesGames\Scintilla_Framework\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.pdb
+D:\13FacesGames\Scintilla_Framework\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.dll
+D:\13FacesGames\Scintilla_Framework\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\Protocol.dll
+D:\13FacesGames\Scintilla_Framework\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.pdb
+D:\13FacesGames\Scintilla_Framework\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.xml
+D:\13FacesGames\Scintilla_Framework\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\Protocol.pdb
+D:\13FacesGames\Scintilla_Framework\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.csprojResolveAssemblyReference.cache
+D:\13FacesGames\Scintilla_Framework\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.exe
+D:\13FacesGames\Scintilla_Framework\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.pdb
+E:\projekty\WarShip Game\Clinet-unity\Protocol\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.exe.config
+E:\projekty\WarShip Game\Clinet-unity\Protocol\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.exe
+E:\projekty\WarShip Game\Clinet-unity\Protocol\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.pdb
+E:\projekty\WarShip Game\Clinet-unity\Protocol\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.exe
+E:\projekty\WarShip Game\Clinet-unity\Protocol\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.pdb
+E:\projekty\WarShip Game\Clinet-unity\Protocol\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.dll
+E:\projekty\WarShip Game\Clinet-unity\Protocol\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\Protocol.dll
+E:\projekty\WarShip Game\Clinet-unity\Protocol\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.pdb
+E:\projekty\WarShip Game\Clinet-unity\Protocol\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.xml
+E:\projekty\WarShip Game\Clinet-unity\Protocol\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\Protocol.pdb
+E:\projekty\WarShip Game\Clinet-unity\Protocol\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.csprojResolveAssemblyReference.cache

@@ -31,3 +31,25 @@ D:\13FacesGames\Scintilla_Framework\Protocol\ProtocolSerializer\ProtocolSerializ
 D:\13FacesGames\Scintilla_Framework\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.csprojResolveAssemblyReference.cache
 D:\13FacesGames\Scintilla_Framework\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.exe
 D:\13FacesGames\Scintilla_Framework\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.pdb
+E:\projekty\WarShip Game\Clinet-unity\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.exe.config
+E:\projekty\WarShip Game\Clinet-unity\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.exe
+E:\projekty\WarShip Game\Clinet-unity\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.pdb
+E:\projekty\WarShip Game\Clinet-unity\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.exe
+E:\projekty\WarShip Game\Clinet-unity\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.pdb
+E:\projekty\WarShip Game\Clinet-unity\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.dll
+E:\projekty\WarShip Game\Clinet-unity\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\Protocol.dll
+E:\projekty\WarShip Game\Clinet-unity\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.pdb
+E:\projekty\WarShip Game\Clinet-unity\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.xml
+E:\projekty\WarShip Game\Clinet-unity\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\Protocol.pdb
+E:\projekty\WarShip Game\Clinet-unity\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.csprojResolveAssemblyReference.cache
+D:\projekty\WarShip-Game\WarShip-UnityClient\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.exe.config
+D:\projekty\WarShip-Game\WarShip-UnityClient\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.exe
+D:\projekty\WarShip-Game\WarShip-UnityClient\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.pdb
+D:\projekty\WarShip-Game\WarShip-UnityClient\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.exe
+D:\projekty\WarShip-Game\WarShip-UnityClient\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.pdb
+D:\projekty\WarShip-Game\WarShip-UnityClient\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.dll
+D:\projekty\WarShip-Game\WarShip-UnityClient\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\Protocol.dll
+D:\projekty\WarShip-Game\WarShip-UnityClient\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.pdb
+D:\projekty\WarShip-Game\WarShip-UnityClient\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.xml
+D:\projekty\WarShip-Game\WarShip-UnityClient\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\Protocol.pdb
+D:\projekty\WarShip-Game\WarShip-UnityClient\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.csprojResolveAssemblyReference.cache

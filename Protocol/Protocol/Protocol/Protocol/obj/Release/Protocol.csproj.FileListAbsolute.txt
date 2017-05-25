@@ -1,0 +1,7 @@
+D:\Unity Projects\Bomberman\data\Protocol\Protocol\bin\Release\Protocol.dll
+D:\Unity Projects\Bomberman\data\Protocol\Protocol\bin\Release\Protocol.pdb
+D:\Unity Projects\Bomberman\data\Protocol\Protocol\bin\Release\protobuf-net.dll
+D:\Unity Projects\Bomberman\data\Protocol\Protocol\bin\Release\protobuf-net.pdb
+D:\Unity Projects\Bomberman\data\Protocol\Protocol\bin\Release\protobuf-net.xml
+D:\Unity Projects\Bomberman\data\Protocol\Protocol\obj\Release\Protocol.dll
+D:\Unity Projects\Bomberman\data\Protocol\Protocol\obj\Release\Protocol.pdb
