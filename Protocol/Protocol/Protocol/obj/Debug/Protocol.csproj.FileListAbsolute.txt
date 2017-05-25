@@ -1,0 +1,24 @@
+D:\Unity Projects\Bomberman\data\Protocol\Protocol\bin\Debug\Protocol.dll
+D:\Unity Projects\Bomberman\data\Protocol\Protocol\bin\Debug\Protocol.pdb
+D:\Unity Projects\Bomberman\data\Protocol\Protocol\bin\Debug\protobuf-net.dll
+D:\Unity Projects\Bomberman\data\Protocol\Protocol\bin\Debug\protobuf-net.pdb
+D:\Unity Projects\Bomberman\data\Protocol\Protocol\bin\Debug\protobuf-net.xml
+D:\Unity Projects\Bomberman\data\Protocol\Protocol\obj\Debug\Protocol.csprojResolveAssemblyReference.cache
+D:\Unity Projects\Bomberman\data\Protocol\Protocol\obj\Debug\Protocol.dll
+D:\Unity Projects\Bomberman\data\Protocol\Protocol\obj\Debug\Protocol.pdb
+D:\13FacesGames\Scintilla Framework\Protocol\Protocol\Protocol\bin\Debug\Protocol.dll
+D:\13FacesGames\Scintilla Framework\Protocol\Protocol\Protocol\bin\Debug\Protocol.pdb
+D:\13FacesGames\Scintilla Framework\Protocol\Protocol\Protocol\bin\Debug\protobuf-net.dll
+D:\13FacesGames\Scintilla Framework\Protocol\Protocol\Protocol\bin\Debug\protobuf-net.pdb
+D:\13FacesGames\Scintilla Framework\Protocol\Protocol\Protocol\bin\Debug\protobuf-net.xml
+D:\13FacesGames\Scintilla Framework\Protocol\Protocol\Protocol\obj\Debug\Protocol.csprojResolveAssemblyReference.cache
+D:\13FacesGames\Scintilla Framework\Protocol\Protocol\Protocol\obj\Debug\Protocol.dll
+D:\13FacesGames\Scintilla Framework\Protocol\Protocol\Protocol\obj\Debug\Protocol.pdb
+D:\13FacesGames\Scintilla_Framework\Protocol\Protocol\Protocol\bin\Debug\Protocol.dll
+D:\13FacesGames\Scintilla_Framework\Protocol\Protocol\Protocol\bin\Debug\Protocol.pdb
+D:\13FacesGames\Scintilla_Framework\Protocol\Protocol\Protocol\bin\Debug\protobuf-net.dll
+D:\13FacesGames\Scintilla_Framework\Protocol\Protocol\Protocol\bin\Debug\protobuf-net.pdb
+D:\13FacesGames\Scintilla_Framework\Protocol\Protocol\Protocol\bin\Debug\protobuf-net.xml
+D:\13FacesGames\Scintilla_Framework\Protocol\Protocol\Protocol\obj\Debug\Protocol.csprojResolveAssemblyReference.cache
+D:\13FacesGames\Scintilla_Framework\Protocol\Protocol\Protocol\obj\Debug\Protocol.dll
+D:\13FacesGames\Scintilla_Framework\Protocol\Protocol\Protocol\obj\Debug\Protocol.pdb

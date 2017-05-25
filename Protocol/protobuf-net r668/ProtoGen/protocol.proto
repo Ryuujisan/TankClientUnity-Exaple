@@ -1,0 +1,95 @@
+syntax = "proto2";
+
+package fantasia;
+
+option java_package = "io.fantasia.packet";
+option java_outer_classname = "Protos";
+
+
+message Packet{
+    optional Ping ping = 1;
+
+    optional Lobby lobby = 2;
+    optional JoinGame joinGame = 3;
+    optional LeaveGame leaveGame = 4;
+
+    optional Room room = 5;
+    optional PlayerJoined playerJoined = 6;
+    optional PlayerLeaved playerLeaved = 7;
+    optional Chat chat = 8;
+
+    optional GameStart gameStart = 9;
+    optional GameCurrentStatus gameCurrentStatus = 10;
+    optional GameEnd gameEnd = 11;
+    optional Update update = 12;
+}
+
+message Ping {
+    required int32 data = 1;
+}
+
+//===========================
+//          LOBBY
+//===========================
+
+message Lobby {
+
+}
+
+message JoinGame {
+    required string name = 1;
+}
+
+message LeaveGame {
+
+}
+
+//===========================
+//           ROOM
+//===========================
+
+message Room {
+    repeated PlayerJoined players = 1;
+    required int32 localId = 2;
+}
+
+message PlayerJoined {
+    required int32 id = 1;
+    required string name = 2;
+}
+
+message PlayerLeaved {
+    required int32 id = 1;
+    required string reason = 2;
+}
+
+message Chat {
+    optional int32 playerId = 1;
+    required string text = 2;
+}
+
+//===========================
+//           GAME
+//===========================
+
+message GameStart {
+
+}
+
+message GameCurrentStatus {
+
+}
+
+message GameEnd {
+
+}
+
+message Update {
+    // Event, podobnie jak Packet powinien być serią optionalli, każdy opisujący jakieś wydarzenie w grze, np. nowe entity, przesuniecie gracza, zdobycie punktów itp.
+    message Event{
+
+    }
+
+    repeated Event events = 1;
+}
+
