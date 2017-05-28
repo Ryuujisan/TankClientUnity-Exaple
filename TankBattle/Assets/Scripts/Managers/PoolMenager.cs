@@ -1,16 +1,29 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class PoolMenager : MonoBehaviour {
+public class PoolMenager : MonoBehaviour
+{
+    [SerializeField]
+    private PlayerPool playerPool;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    [SerializeField]
+    private FallowTextPool fallowTextPool;
+
+
+    void Awake()
+    {
+        if (GameManager.PoolMenager == null)
+        {
+            GameManager.PoolMenager = this;
+        }
+    }
+
+    public PlayerPool PLayerPool
+    {
+        get { return playerPool; }
+    }
+
+    public FallowTextPool FallowTextPool
+    {
+        get { return fallowTextPool; }
+    }
 }

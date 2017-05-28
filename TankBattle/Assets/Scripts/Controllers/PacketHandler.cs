@@ -1,5 +1,6 @@
-using UnityEngine;
+using System.Collections.Generic;
 using System.IO;
+using UnityEngine;
 
 public class PacketHandler : MonoBehaviour
 {
@@ -38,6 +39,10 @@ public class PacketHandler : MonoBehaviour
         {
             Protocol.Room room = packet.room;
 
+            List<Player> players = new List<Player>();
+
+            GameManager.GamePlay.PlayerList(room.players, room.localId);
+
 #if DEBUG_LOG
             Debug.Log(string.Format("[Room] Local Id: {0} | Players: {1}", room.localId, room.players.Count));
             for (int i = 0; i < room.players.Count; ++i)
@@ -49,6 +54,8 @@ public class PacketHandler : MonoBehaviour
         else if (packet.playerJoined != null)
         {
             Protocol.PlayerJoined playerJoined = packet.playerJoined;
+
+            GameManager.GamePlay.PlayerJoin(playerJoined);
 
 #if DEBUG_LOG
             Debug.Log(string.Format("[Player Joined] Player Id: {0} | Player Name: {1}", playerJoined.id, playerJoined.name));
@@ -97,6 +104,20 @@ public class PacketHandler : MonoBehaviour
         else if (packet.update != null)
         {
             Protocol.Update update = packet.update;
+
+            for (int i = 0; i < update.events.Count; i++)
+            {
+                if (update.events[i].updateGamePlay != null)
+                {
+                    EventUtils.UpdatePlayer(update.events[i].updateGamePlay);
+                }
+
+                if (update.events[i].hit != null)
+                {
+                    Debug.Log("Przyszedl hit");
+                }
+            }
+
 #if DEBUG_LOG
             Debug.Log(string.Format("[Update] Events: {0}", update.events.Count));
             for (int i = 0; i < update.events.Count; ++i)
@@ -104,10 +125,28 @@ public class PacketHandler : MonoBehaviour
                 Debug.Log(string.Format("[Event {0}]", i));
             }
 #endif
+
         }
     }
 
     // Server Packets
+
+    public void CreateJoinGamePacket(Protocol.JoinGame joinGame)
+    {
+        Protocol.Packet packet = new Protocol.Packet();
+        packet.joinGame = joinGame;
+
+        byte[] data = GetPacketBytes(packet);
+
+        GameManager.Server.SendPacket(data);
+    }
+
+    public void ConstructPacket(Protocol.Packet packet)
+    {
+        byte[] data = GetPacketBytes(packet);
+        GameManager.Server.SendPacket(data);
+    }
+
 
     public byte[] CreateChatPacket(int playerId, string message)
     {

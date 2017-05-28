@@ -1,0 +1,21 @@
+using UnityEngine;
+using System.Collections;
+
+
+public class SCRIPTNAME : UltimateButtonReceiver
+{
+	/* VARIABLES */
+	
+	
+	// This is called when the button has been pressed
+	public override void UltimateButtonDown ()
+	{
+		// Call your functions here
+	}
+	
+	// This is called when the button has been released
+	public override void UltimateButtonUp ()
+	{
+		// Call your functions here
+	}
+}

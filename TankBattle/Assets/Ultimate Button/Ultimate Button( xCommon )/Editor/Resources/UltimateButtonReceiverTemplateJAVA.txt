@@ -1,0 +1,16 @@
+#pragma strict
+
+public class SCRIPTNAME extends UltimateButtonReceiverJAVA
+{
+	// This is called when the button has been pressed
+	public function UltimateButtonDown ()
+	{
+		
+	}
+
+	// This is called when the button has been released
+	public function UltimateButtonUp ()
+	{
+		
+	}
+}

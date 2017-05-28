@@ -1,5 +1,5 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 
     public static WebSocketServer Server;
     public static PacketHandler PacketHandler;
+    public static PoolMenager PoolMenager;
+    public static GamePlay GamePlay;
 
     private bool lastInternetConnection = false;
 

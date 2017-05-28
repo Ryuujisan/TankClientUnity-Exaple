@@ -1,7 +1,7 @@
-using UnityEngine;
 using System;
 using BestHTTP;
 using BestHTTP.WebSocket;
+using UnityEngine;
 //using BestHTTP.WebSocket.Frames;
 
 public class WebSocketServer : MonoBehaviour
@@ -14,12 +14,20 @@ public class WebSocketServer : MonoBehaviour
         if (GameManager.Server == null)
         {
             GameManager.Server = this;
+            Connect("ws://localhost:3939");
         }
     }
 
     public void Connect(string ip)
     {
         CreateWebSocket(ip);
+    }
+
+    public void CustomConnectToServer(string url)
+    {
+        webSocket = null;
+
+        CreateWebSocket(url);
     }
 
     public bool IsConnected()
