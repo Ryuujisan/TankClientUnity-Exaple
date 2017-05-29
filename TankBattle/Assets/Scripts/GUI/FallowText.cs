@@ -10,8 +10,7 @@ public class FallowText : MonoBehaviour
     private Transform transform;
 
     private Vector3 fallowTransform;
-
-    private Vector3 offset = new Vector3(5714f, 2848f, 0);
+    private Vector3 offset = new Vector3(85000f, 28000f, 0);
 
     public int id;
 

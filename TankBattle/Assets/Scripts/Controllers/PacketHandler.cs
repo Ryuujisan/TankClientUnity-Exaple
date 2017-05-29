@@ -114,7 +114,7 @@ public class PacketHandler : MonoBehaviour
 
                 if (update.events[i].hit != null)
                 {
-                    Debug.Log("Przyszedl hit");
+                    Debug.Log("Przyszedl hit: " + update.events[i].hit.target);
                 }
             }
 

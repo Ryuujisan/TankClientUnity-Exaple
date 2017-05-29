@@ -42,8 +42,8 @@ public class PlayerControler : MonoBehaviour
 
         if (moveJoystick.JoystickPosition.magnitude >= 0.4f)
         {
-            playerStering.dirY = -moveJoystick.JoystickPosition.x;
-            playerStering.dirX = -moveJoystick.JoystickPosition.y;
+            playerStering.dirX = moveJoystick.JoystickPosition.x;
+            playerStering.dirY = moveJoystick.JoystickPosition.y;
             playerStering.accelerates = true;
             oldDir = moveJoystick.JoystickPosition;
         }
@@ -74,7 +74,6 @@ public class PlayerControler : MonoBehaviour
             return;
         }
 
-        Debug.Log("Strzela");
         PlayerStering playerShot = new PlayerStering();
         playerShot.shot = true;
         packet.playerStering.shot = true;

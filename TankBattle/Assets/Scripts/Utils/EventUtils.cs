@@ -18,7 +18,6 @@ public class EventUtils
             players.Add(player);
         }
 
-        Debug.Log(players.Count);
         GameManager.GamePlay.UpdatePlayer(players);
     }
 

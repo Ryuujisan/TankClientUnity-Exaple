@@ -16,7 +16,7 @@ public class PlayerPool : MonoBehaviour // [Code Review] chyba PlayerPool
         {
             GameObject temp = Instantiate(playerShipPrefab) as GameObject;
             temp.transform.SetParent(this.transform);
-            temp.transform.localScale = new Vector3(1.0f, 1.0f, 0);
+            temp.transform.localScale = new Vector3(12.0f, 12.0f, 0);
 
             Tank tempScript = temp.GetComponent<Tank>();
 
