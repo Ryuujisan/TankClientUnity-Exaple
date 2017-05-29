@@ -116,6 +116,11 @@ public class PacketHandler : MonoBehaviour
                 {
                     Debug.Log("Przyszedl hit: " + update.events[i].hit.target);
                 }
+
+                if (update.events[i].bulletFire != null)
+                {
+                    EventUtils.BulletFire(update.events[i].bulletFire);
+                }
             }
 
 #if DEBUG_LOG

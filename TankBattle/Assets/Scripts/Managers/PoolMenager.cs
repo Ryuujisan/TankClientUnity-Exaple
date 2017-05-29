@@ -8,6 +8,9 @@ public class PoolMenager : MonoBehaviour
     [SerializeField]
     private FallowTextPool fallowTextPool;
 
+    [SerializeField]
+    private BallPool ballPool;
+
 
     void Awake()
     {
@@ -25,5 +28,10 @@ public class PoolMenager : MonoBehaviour
     public FallowTextPool FallowTextPool
     {
         get { return fallowTextPool; }
+    }
+
+    public BallPool BallPool
+    {
+        get { return ballPool; }
     }
 }

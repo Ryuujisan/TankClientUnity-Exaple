@@ -46,3 +46,11 @@ E:\projekty\Tank-uczelnia\Client\Protocol\Protocol\Protocol\bin\Debug\protobuf-n
 E:\projekty\Tank-uczelnia\Client\Protocol\Protocol\Protocol\obj\Debug\Protocol.csprojResolveAssemblyReference.cache
 E:\projekty\Tank-uczelnia\Client\Protocol\Protocol\Protocol\obj\Debug\Protocol.dll
 E:\projekty\Tank-uczelnia\Client\Protocol\Protocol\Protocol\obj\Debug\Protocol.pdb
+D:\projekty\TankGame-Studia\Client\Protocol\Protocol\Protocol\bin\Debug\Protocol.dll
+D:\projekty\TankGame-Studia\Client\Protocol\Protocol\Protocol\bin\Debug\Protocol.pdb
+D:\projekty\TankGame-Studia\Client\Protocol\Protocol\Protocol\bin\Debug\protobuf-net.dll
+D:\projekty\TankGame-Studia\Client\Protocol\Protocol\Protocol\bin\Debug\protobuf-net.pdb
+D:\projekty\TankGame-Studia\Client\Protocol\Protocol\Protocol\bin\Debug\protobuf-net.xml
+D:\projekty\TankGame-Studia\Client\Protocol\Protocol\Protocol\obj\Debug\Protocol.csprojResolveAssemblyReference.cache
+D:\projekty\TankGame-Studia\Client\Protocol\Protocol\Protocol\obj\Debug\Protocol.dll
+D:\projekty\TankGame-Studia\Client\Protocol\Protocol\Protocol\obj\Debug\Protocol.pdb

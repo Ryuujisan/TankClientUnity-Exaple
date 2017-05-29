@@ -74,13 +74,9 @@ public class PlayerControler : MonoBehaviour
             return;
         }
 
-        PlayerStering playerShot = new PlayerStering();
-        playerShot.shot = true;
         packet.playerStering.shot = true;
-        Packet shot = new Packet();
-        packet.playerStering = playerShot;
 
-        GameManager.PacketHandler.ConstructPacket(shot);
+
 
         timeToShot = 2f;
     }
