@@ -15,6 +15,8 @@ public class Tank : MonoBehaviour
 
     public int id;
     public string name;
+    public int frag;
+    public int hp;
 
     public void SetNewPosition(Vector3 newPosition, float course, float barrelCourse)
     {

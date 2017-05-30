@@ -20,6 +20,12 @@ public class PoolMenager : MonoBehaviour
         }
     }
 
+    public void Clear()
+    {
+        playerPool.Clear();
+
+    }
+
     public PlayerPool PLayerPool
     {
         get { return playerPool; }

@@ -205,6 +205,14 @@ namespace Protocol
       get { return _localId; }
       set { _localId = value; }
     }
+    private int _frag = default(int);
+    [global::ProtoBuf.ProtoMember(3, IsRequired = false, Name=@"frag", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(int))]
+    public int frag
+    {
+      get { return _frag; }
+      set { _frag = value; }
+    }
     private global::ProtoBuf.IExtension extensionObject;
     global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
@@ -346,6 +354,22 @@ namespace Protocol
   {
     public Respawn() {}
     
+    private float _posX = default(float);
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"posX", DataFormat = global::ProtoBuf.DataFormat.FixedSize)]
+    [global::System.ComponentModel.DefaultValue(default(float))]
+    public float posX
+    {
+      get { return _posX; }
+      set { _posX = value; }
+    }
+    private float _posY = default(float);
+    [global::ProtoBuf.ProtoMember(2, IsRequired = false, Name=@"posY", DataFormat = global::ProtoBuf.DataFormat.FixedSize)]
+    [global::System.ComponentModel.DefaultValue(default(float))]
+    public float posY
+    {
+      get { return _posY; }
+      set { _posY = value; }
+    }
     private global::ProtoBuf.IExtension extensionObject;
     global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
@@ -425,6 +449,14 @@ namespace Protocol
     {
       get { return _barrelCourse; }
       set { _barrelCourse = value; }
+    }
+    private int _hp = default(int);
+    [global::ProtoBuf.ProtoMember(6, IsRequired = false, Name=@"hp", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(int))]
+    public int hp
+    {
+      get { return _hp; }
+      set { _hp = value; }
     }
     private global::ProtoBuf.IExtension extensionObject;
     global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)

@@ -41,7 +41,7 @@ public class PacketHandler : MonoBehaviour
 
             List<Player> players = new List<Player>();
 
-            GameManager.GamePlay.PlayerList(room.players, room.localId);
+            GameManager.GamePlay.PlayerInRoom(room.players, room.localId);
 
 #if DEBUG_LOG
             Debug.Log(string.Format("[Room] Local Id: {0} | Players: {1}", room.localId, room.players.Count));
@@ -64,6 +64,8 @@ public class PacketHandler : MonoBehaviour
         else if (packet.playerLeaved != null)
         {
             Protocol.PlayerLeaved playerLeaved = packet.playerLeaved;
+
+            GameManager.GamePlay.PlayerLeafe(playerLeaved.id);
 
 #if DEBUG_LOG
             Debug.Log(string.Format("[Player Left] Player Id: {0} | Player Name: {1}", playerLeaved.id, playerLeaved.reason));

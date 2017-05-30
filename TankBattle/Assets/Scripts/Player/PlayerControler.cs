@@ -73,7 +73,7 @@ public class PlayerControler : MonoBehaviour
         {
             return;
         }
-
+        Debug.Log("strzela");
         packet.playerStering.shot = true;
 
 

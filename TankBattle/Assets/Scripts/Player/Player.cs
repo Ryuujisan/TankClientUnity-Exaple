@@ -6,5 +6,6 @@ public class Player
     public Vector3 position;
     public float course;
     public float barrelCourse;
+    public int hp;
 
 }

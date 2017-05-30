@@ -15,6 +15,7 @@ public class EventUtils
             player.id = updateGameplay.player[i].id;
             player.course = updateGameplay.player[i].tankCourse;
             player.barrelCourse = updateGameplay.player[i].barrelCourse;
+            player.hp = updateGameplay.player[i].hp;
             players.Add(player);
         }
 

@@ -53,6 +53,7 @@ message LeaveGame {
 message Room {
     repeated PlayerJoined players = 1;
     required int32 localId = 2;
+	optional int32 frag = 3;
 }
 
 message PlayerJoined {
@@ -80,7 +81,8 @@ message PlayerStering {
 }
 
 message Respawn {
-
+optional float posX = 1;
+optional float posY = 2;
 }
 
 
@@ -106,6 +108,7 @@ message Player {
     optional float postionY = 3;
     optional float tankCourse = 4;
     optional float barrelCourse = 5;
+	optional int32 hp = 6;
 }
 
 message Dead {

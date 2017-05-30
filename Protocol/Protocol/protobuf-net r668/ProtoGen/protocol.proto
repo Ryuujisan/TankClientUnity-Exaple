@@ -3,11 +3,10 @@ syntax = "proto2";
 package fantasia;
 
 option java_package = "io.fantasia.packet";
-
 option java_outer_classname = "Protos";
 
 
-message Packet {
+message Packet{
     optional Ping ping = 1;
 
     optional Lobby lobby = 2;
@@ -23,7 +22,8 @@ message Packet {
     optional GameCurrentStatus gameCurrentStatus = 10;
     optional GameEnd gameEnd = 11;
     optional Update update = 12;
-    optional PlayerSteering playerSteering = 13;
+    optional PlayerStering playerStering = 13;
+    optional Respawn respawn = 14;
 }
 
 message Ping {
@@ -39,34 +39,11 @@ message Lobby {
 }
 
 message JoinGame {
-    enum RoomType {
-        KILL_FLAG_SHIP = 1;
-        FFA = 2;
-        CTF = 3;
-    }
-
     required string name = 1;
-    required Ship.ShipType ship = 2;
-    required RoomType roomType = 3;
 }
 
 message LeaveGame {
 
-}
-
-message Ship {
-    enum ShipType {
-        GALLEON = 1;
-        CORVETTE = 2;
-        FRIGATE = 3;
-    }
-    required int32 playerID = 1;
-    required float posX = 2;
-    required float posY = 3;
-    required float velX = 4;
-    required float velY = 5;
-    required float course = 6;
-    optional ShipType shipType = 7;
 }
 
 //===========================
@@ -79,16 +56,9 @@ message Room {
 }
 
 message PlayerJoined {
-    enum PlayerTeam {
-        NONE = 1;
-        RED = 2;
-        BLUE = 3;
-    }
-
     required int32 id = 1;
     required string name = 2;
-
-    optional PlayerTeam playerTeam = 3;
+	optional int32 frag = 3;
 }
 
 message PlayerLeaved {
@@ -101,120 +71,85 @@ message Chat {
     required string text = 2;
 }
 
-message PlayerSteering {
-    
-    enum Shot {
-	LEFT = 1;
-	RIGHT = 2;
-	FRONT = 3;
-    }
-    enum SwitchAmmo {
-        NORMAL = 0;
-    }
-
+message PlayerStering {
     optional float dirX = 1;
     optional float dirY = 2;
-    optional Shot shot = 3;
-    optional SwitchAmmo switchAmmo = 4;
-    optional bool anchor = 5;
+    optional float barrelDirX = 3;
+    optional float barrelDirY = 4;
+    optional bool accelerates = 5;
+    optional bool shot= 6;
 }
 
-message RespawnRequest {
+message Respawn {
 
 }
 
-message RespawnAnswer {
-    optional Ship shipPosition = 1;
-}
 
 //===========================
 //           GAME
 //===========================
 
-message Obstacle {
-    enum ObstacleType {
-        BUOY = 1;
-        ROCK_SMALL = 2;
-        ROCK_BIG = 3;
-        ISLAND_1 = 4;
-        ISLAND_2 = 5;
-        ISLAND_3 = 6;
-    }
-    required int32 obstacleID = 1;
-    optional ObstacleType obstacleType = 2;
-    optional float posX = 3;
-    optional float posY = 4;
-    optional float angle = 5;
-}
-
-message Wind {
-    required float dirX = 1;
-    required float dirY = 2;
-}
-
 message GameStart {
-    repeated Ship ships = 1;
-    repeated Obstacle obstacles = 2;
-    required Wind wind = 3;
+
 }
 
 message GameCurrentStatus {
-    repeated Ship ships = 1;
-    repeated Obstacle obstacles = 2;
-    required Wind wind = 3;
+
 }
 
 message GameEnd {
 
 }
 
+message Player {
+    optional int32 id = 1;
+    optional float positionX = 2;
+    optional float postionY = 3;
+    optional float tankCourse = 4;
+    optional float barrelCourse = 5;
+	optional float hp = 6;
+}
+
+message Dead {
+    optional int32 id = 1;
+    optional float positionX = 2;
+    optional float positionY = 3;
+}
+
+message Hit {
+    enum Target {
+    NONE = 0;
+    GROUND = 1;
+    TANK = 2;
+    }
+    optional float positionX = 1;
+    optional float positionY = 2;
+    optional Target target = 3;
+
+}
+
+message UpdateGamePlay {
+    repeated Player player = 1;
+}
+
+message BulletFire {
+    required int32 bulletID = 1;
+    required float posX = 2;
+    required float posY = 3;
+    required float velX = 4;
+    required float velY = 5;
+    required float range = 6;
+}
+
 message Update {
     // Event, podobnie jak Packet powinien być serią optionalli, każdy opisujący jakieś wydarzenie w grze, np. nowe entity, przesuniecie gracza, zdobycie punktów itp.
-    message Event {
-        message ShipDestroyed {
-            required int32 playerID = 1;
-        }
-
-        message BulletFire {
-            required int32 bulletID = 1;
-            required float posX = 2;
-            required float posY = 3;
-            required float velX = 4;
-            required float velY = 5;
-            required float range = 6;
-        }
-
-        message BulletHit {
-            enum Target {
-                WATER = 1;
-                SHIP = 2;
-                OBSTACLE = 3;
-            }
-
-            required int32 bulletID = 1;
-            required Target target = 2;
-            optional int32 TargetID = 3;
-            required float posX = 4;
-            required float posY = 5;
-        }
-
-        message ObstacleMove {
-            required int32 obstacleID = 1;
-            required float posX = 2;
-            required float posY = 3;
-            required float velX = 4;
-            required float velY = 5;
-            required float angle = 6;
-        }
-
-        optional Ship shipMove = 1;
-        optional Ship shipSpawn = 2;
-        optional ShipDestroyed shipDestroyed = 3;
-        optional BulletFire bulletFire = 4;
-        optional BulletHit bulletHit = 5;
-        optional ObstacleMove obstacleMove = 6;
-        optional Wind wind = 7;
+    message Event{
+        optional UpdateGamePlay updateGamePlay = 1;
+        optional Dead dead = 2;
+        optional Hit hit = 3;
+        optional BulletFire  bulletFire = 4;
     }
 
     repeated Event events = 1;
 }
+

@@ -64,3 +64,14 @@ E:\projekty\Tank-uczelnia\Client\Protocol\ProtocolSerializer\ProtocolSerializer\
 E:\projekty\Tank-uczelnia\Client\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.xml
 E:\projekty\Tank-uczelnia\Client\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\Protocol.pdb
 E:\projekty\Tank-uczelnia\Client\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.csprojResolveAssemblyReference.cache
+D:\projekty\TankGame-Studia\Client\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.exe.config
+D:\projekty\TankGame-Studia\Client\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.exe
+D:\projekty\TankGame-Studia\Client\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.pdb
+D:\projekty\TankGame-Studia\Client\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.exe
+D:\projekty\TankGame-Studia\Client\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\ProtocolSerializer.pdb
+D:\projekty\TankGame-Studia\Client\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.dll
+D:\projekty\TankGame-Studia\Client\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\Protocol.dll
+D:\projekty\TankGame-Studia\Client\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.pdb
+D:\projekty\TankGame-Studia\Client\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\protobuf-net.xml
+D:\projekty\TankGame-Studia\Client\Protocol\ProtocolSerializer\ProtocolSerializer\bin\Debug\Protocol.pdb
+D:\projekty\TankGame-Studia\Client\Protocol\ProtocolSerializer\ProtocolSerializer\obj\x86\Debug\ProtocolSerializer.csprojResolveAssemblyReference.cache
