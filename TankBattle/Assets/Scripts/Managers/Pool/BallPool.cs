@@ -19,7 +19,7 @@ public class BallPool : MonoBehaviour
         {
             GameObject temp = Instantiate(ballPrefab) as GameObject;
             temp.transform.SetParent(this.transform);
-            temp.transform.localScale = new Vector3(8f, 8f, 0);
+            temp.transform.localScale = new Vector3(2f, 2f, 0);
 
             Balls tempScript = temp.GetComponent<Balls>();
 
