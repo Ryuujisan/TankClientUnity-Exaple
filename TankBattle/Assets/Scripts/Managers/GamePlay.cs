@@ -55,6 +55,7 @@ public class GamePlay : MonoBehaviour
         tank.id = playerJoin.id;
         tank.name = playerJoin.name;
 
+        playerList.Add(tank.id, tank);
 
         FallowText fallowText = GameManager.PoolMenager.FallowTextPool.GetPool();
         fallowText.SetText(tank.name, tank.transform.position, tank.id);
