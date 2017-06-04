@@ -34,6 +34,10 @@ public class GUIMenager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameManager.GamePlay.gui == null)
+        {
+            GameManager.GamePlay.gui = this;
+        }
         ControlViewfinder();
     }
 
@@ -78,6 +82,8 @@ public class GUIMenager : MonoBehaviour
 
         GameManager.PoolMenager.Clear();
         GameManager.GamePlay.PlayerList.Clear();
+
+        GameManager.GamePlay.gui = null;
     }
 
     public void RespawnClick()

@@ -279,12 +279,12 @@ Prefab:
     - target: {fileID: 224605018763774782, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0.9645386
+      value: 0.8374634
       objectReference: {fileID: 0}
     - target: {fileID: 224234747449837298, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 85.95618
+      value: 88.14227
       objectReference: {fileID: 0}
     - target: {fileID: 114324713775345260, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
@@ -294,12 +294,12 @@ Prefab:
     - target: {fileID: 224234747449837298, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 124.715454
+      value: 108.2811
       objectReference: {fileID: 0}
     - target: {fileID: 224605018763774782, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0.96450806
+      value: 0.83743286
       objectReference: {fileID: 0}
     - target: {fileID: 114833764995406712, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
@@ -309,7 +309,7 @@ Prefab:
     - target: {fileID: 224403696656271810, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 985.20984
+      value: 1008.6979
       objectReference: {fileID: 0}
     - target: {fileID: 114833764995406712, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
@@ -319,57 +319,57 @@ Prefab:
     - target: {fileID: 224403696656271810, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 118.73071
+      value: 103.08496
       objectReference: {fileID: 0}
     - target: {fileID: 224403696656271810, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 194.83405
+      value: 169.15985
       objectReference: {fileID: 0}
     - target: {fileID: 224403696656271810, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 194.83405
+      value: 169.15985
       objectReference: {fileID: 0}
     - target: {fileID: 224605018763774782, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 192.905
+      value: 167.485
       objectReference: {fileID: 0}
     - target: {fileID: 224605018763774782, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 192.905
+      value: 167.485
       objectReference: {fileID: 0}
     - target: {fileID: 224234747449837298, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 194.83405
+      value: 169.15985
       objectReference: {fileID: 0}
     - target: {fileID: 224234747449837298, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 194.83405
+      value: 169.15985
       objectReference: {fileID: 0}
     - target: {fileID: 224154472835985178, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0.9645386
+      value: 0.83740234
       objectReference: {fileID: 0}
     - target: {fileID: 224154472835985178, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0.96450806
+      value: 0.83743286
       objectReference: {fileID: 0}
     - target: {fileID: 224154472835985178, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 192.905
+      value: 167.485
       objectReference: {fileID: 0}
     - target: {fileID: 224154472835985178, guid: 89b9fe699b76efd4abbe6ef6408126e7,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 192.905
+      value: 167.485
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89b9fe699b76efd4abbe6ef6408126e7, type: 2}
@@ -437,11 +437,11 @@ Camera:
     width: 1
     height: 1
   near clip plane: -1
-  far clip plane: 1000
+  far clip plane: 1002.26
   field of view: 60
   orthographic: 1
-  orthographic size: 35
-  m_Depth: -1
+  orthographic size: 30
+  m_Depth: -0.7
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
